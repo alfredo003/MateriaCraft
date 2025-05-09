@@ -1,0 +1,1 @@
+é Um projecto didatico  mini sistema de RPG onde personagens podem aprender e usar magias (Materia) como "Ice" e "Cure". O código usa interfaces, classes abstratas, clones, polimorfismo e tratamento cuidadoso de memória dinâmica.
