@@ -1,7 +1,7 @@
-#include "AMateria.hpp"
+#include "../inc/AMateria.hpp"
 
 
-AMateria::AMateria():type("");
+AMateria::AMateria():type("")
 {
     std::cout << "Constructor Default Called" << std::endl;
 }
@@ -32,7 +32,12 @@ AMateria &AMateria::operator=(const AMateria &copy)
     return *this;
 }
 
-std::string const & getType() const
+std::string const & AMateria::getType() const
 {
     return (this->type);
 }
+
+ void AMateria::use(ICharacter& target)
+ {
+        std::cout << "used on" << target.getName() << std::endl;
+ }
